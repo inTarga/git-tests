@@ -1,0 +1,26 @@
+#1
+
+git commit -a
+
+#2
+
+git checkout master
+git merge chocolate
+git branch beans
+
+#3
+
+git stash
+git checkout chocolate
+git stash pop
+git commit -a
+
+#4
+
+git revert <relevant commit ID>
+
+#5
+
+git rebase master
+git cherry-pick <relevant commit ID>
+
